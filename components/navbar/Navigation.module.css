@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.MenuButton + .MenuButton {
+  margin-top: 12px;
+}
+.title {
+  font-size: 19px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+}
